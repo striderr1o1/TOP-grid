@@ -171,7 +171,7 @@ img{
 }
 .earth{
     grid-area: 1/4/3/-1;
-    background-image: url("javier-miranda-Jn2EaLLYZfY-unsplash.jpg");
+    background-image: url("ChatGPT Image Jul 26, 2025, 10_55_16 PM(1).png");
     background-position: center;
     background-position-y: -30px;
     background-size: cover;
@@ -206,11 +206,19 @@ img{
 }
 .box1{
     margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
 .box2{
     margin-left: 5px;
     margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 .userpost{
     height: 500px;
@@ -262,3 +270,42 @@ img{
     font-size: 20px;
     color: white;   
 }
+.boxes > h4{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+}
+.box1>input{
+    height: 40px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.chatbox{
+    height: 60%;
+    width: 95%;
+    background-color: black;
+    border-radius: 20px;
+}
+.box2>h4{
+    margin-top: 26px;
+}
+.newsbox{
+    height: 80%;
+    background-color: black;
+    width: 85%;
+    margin-top: 10px;
+    min-height: 80%;
+    overflow-y: scroll;
+    border-radius: 20px;
+    padding: 10px;
+}
+.news{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    margin: 10px 0 10px 0;
+}
+
